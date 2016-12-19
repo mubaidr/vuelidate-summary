@@ -38,4 +38,4 @@ and use it like this to display animated validation error message list:
 ```
 
 ## Is this complete?
-Nope. This script only generates messages for fields, validation groups are not supported (duplicate messages will apear if validation messages are used). 
+Nope. This script only generates messages for fields, validation groups are not supported (duplicate messages will apear if validation groups are used). 
