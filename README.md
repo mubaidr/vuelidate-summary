@@ -2,7 +2,7 @@
 A tiny tiny helper function to display summaries in vuelidate (https://github.com/monterail/vuelidate)
 
 ## What is this?
-This is helper fucntion with vuelidate validation to get error messages for all form fields. 
+This is helper function to be with vuelidate validation to get error messages for all form fields. 
 
 ## How to use?
 Simple, just import index.js and add this code to your component. 
@@ -37,5 +37,15 @@ and use it like this to display animated validation error message list:
 </div>
 ```
 
+or just use for simple list:
+```
+<div v-show="validationSummary.messages.length">
+  <ul>
+    <li v-for="message in validationSummary.messages">
+        {{message}}
+    </li>
+  </ul>
+</div>
+```
 ## Is this complete?
 Nope. This script only generates messages for fields, validation groups are not supported (duplicate messages will apear if validation groups are used). 
