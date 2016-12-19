@@ -6,6 +6,15 @@ This is helper fucntion with vuelidate validation to get error messages for all 
 
 ## How to use?
 Simple, just import index.js and add this code to your component. 
+
+```
+import {
+    Summary
+  } from 'utilities/validationSummary'
+```
+
+Register as computed property:
+
 ```
 ....,
 computed: {
